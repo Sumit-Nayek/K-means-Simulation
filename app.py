@@ -89,7 +89,7 @@ def step_forward():
 
 # --- Plotting Function ---
 def create_plot():
-    fig, ax = plt.subplots(figsize=(5, 4))
+    fig, ax = plt.subplots(figsize=(3, 2))
     ax.set_xlim(-4, 4)
     ax.set_ylim(-4, 4)
     ax.set_xticks([])
