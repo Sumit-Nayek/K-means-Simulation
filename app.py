@@ -89,12 +89,12 @@ def step_forward():
 
 # --- Plotting Function ---
 def create_plot():
-    fig, ax = plt.subplots(figsize=(6, 4))
-    ax.set_xlim(-5, 5)
-    ax.set_ylim(-5, 5)
+    fig, ax = plt.subplots(figsize=(5, 4))
+    ax.set_xlim(-4, 4)
+    ax.set_ylim(-4, 4)
     ax.set_xticks([])
     ax.set_yticks([])
-    ax.set_title(f"Phase: {st.session_state.phase} | Step: {st.session_state.step}", fontsize=10, pad=10)
+    ax.set_title(f"Phase: {st.session_state.phase} | Step: {st.session_state.step}", fontsize=5, pad=5)
 
     points = st.session_state.points
     labels = st.session_state.labels
